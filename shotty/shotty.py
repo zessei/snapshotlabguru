@@ -23,6 +23,7 @@ def has_pending_snapshot(volume):
 @click.group()
 def cli():
     """Shotty manages snapshots"""
+    
 @cli.group('snapshots')
 def snapshots():
     """Commands for snapshots"""
